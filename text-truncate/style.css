@@ -1,0 +1,34 @@
+.component{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    padding: 10px;
+    border: 1px gray solid;
+}
+
+.content{
+    display: inline-block;
+    flex-grow: 1;
+    padding: 6px;
+    border: 1px gray solid;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.basis{
+    flex-basis: 100px;
+}
+
+
+.command{
+    display: inline-block;
+}
+
+.command button{
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    border: none;
+    color: honeydew;
+}
