@@ -1,0 +1,85 @@
+body{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-size: 3rem;
+}
+
+section{
+    margin-bottom: 3rem;
+}
+
+.visible-block-red{
+    background-color: hsla(0, 100%, 90%, .5);
+    border: 2px solid red;
+    padding: 1rem;
+    box-shadow: 0 0 20px #333333;
+}
+
+.visible-block-green{
+    background-color: hsla(120, 100%, 90%, .5);
+    border: 2px solid greenyellow;
+    padding: 1rem;
+    box-shadow: 0 0 20px #333;
+
+}
+
+.p-relative-tl{
+    position: relative;
+    top: .5rem;
+    left: .5rem;
+}
+
+.p-relative-br{
+    position: relative;
+    bottom: 1rem;
+    right: 10rem;
+}
+
+.p-absolute-tl{
+    position: absolute;
+     top: 2rem;
+    left: 2rem;
+}
+
+.p-absolute-br{
+    position: absolute;
+     bottom: 1rem;
+    right: 10rem;
+}
+
+.p-absolute-tlbr{
+    position: absolute;
+     top: 6rem;
+    left: 6rem;
+     bottom: 6rem;
+    right: 6rem;
+}
+
+.p-fixed-tl{
+    position: fixed;
+     top: 2rem;
+    left: 2rem;
+}
+
+.p-fixed-br{
+    position: fixed;
+     bottom: 1rem;
+    right: 10rem;
+}
+
+.p-sticky-tl{
+    position: sticky;
+     top: 2rem;
+    left: 20rem;
+}
+
+.p-sticky-br{
+    position: sticky;
+     bottom: 1rem;
+    right: 5rem;
+}
