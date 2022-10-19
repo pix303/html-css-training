@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 50rem;
+  height: 100%;
+  padding: 0.2rem;
+  border: 1px gray solid;
+  margin: auto;
+}
+
+.main-block {
+  background-color: #ff006a;
+  color: black;
+  /* flex-grow: 1; */
+  overflow-y: auto;
+  margin-bottom: 0.3rem;
+}
+
+.header {
+  background-color: hsl(120, 50%, 50%);
+  color: rgb(0, 0, 0);
+  height: 15rem;
+}
+
+.footer {
+  background-color: rgba(00, 256, 00, 0.2);
+  color: rgb(0, 0, 0);
+  height: 10rem;
+}
+
+.padding5 {
+  padding: 0.5rem;
+}
